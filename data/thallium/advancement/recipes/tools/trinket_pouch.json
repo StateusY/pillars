@@ -1,0 +1,38 @@
+{
+  "parent": "thallium:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "thallium:trinket_pouch"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_trinket": {
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "thallium": {
+                  "trinket": {}
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_trinket"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "thallium:trinket_pouch"
+    ]
+  }
+}

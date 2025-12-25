@@ -1,0 +1,1 @@
+$execute summon minecraft:item_display run function thallium:item/trinket_pouch/as_display {slot:$(slot)}

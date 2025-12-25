@@ -1,0 +1,1 @@
+$playsound $(sound) $(category) @a[distance=..16] ~ ~ ~ 0.8

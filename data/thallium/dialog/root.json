@@ -1,0 +1,96 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "translate": "ui.thallium.menu"
+  },
+  "external_title": {
+    "translate": "ui.thallium.title"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "ui.thallium.not_paused",
+        "color": "#e00239",
+        "font": "thallium:5"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": ""
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "ui.thallium.description"
+      },
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "translate": "ui.thallium.version",
+          "color": "gray",
+          "font": "thallium:5"
+        },
+        "\n",
+        {
+          "translate": "book.byAuthor",
+          "color": "gray",
+          "font": "thallium:5",
+          "with": [
+            {
+              "translate": "ui.thallium.ampersand",
+              "color": "gray",
+              "with": [
+                {
+                  "translate": "contributor.lead",
+                  "color": "#eac68c"
+                },
+                {
+                  "translate": "contributor.fracturedflux",
+                  "color": "#f35165"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "width": 300
+    }
+  ],
+  "pause": false,
+  "after_action": "none",
+  "exit_action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "smithed:data_packs"
+    },
+    "width": 200
+  },
+  "columns": 2,
+  "actions": [
+    {
+      "label": {
+        "translate": "ui.thallium.credits"
+      },
+      "action": {
+        "type": "show_dialog",
+        "dialog": "thallium:credits"
+      }
+    },
+    {
+      "label": {
+        "translate": "menu.reportBugs"
+      },
+      "action": {
+        "type": "minecraft:open_url",
+        "url": "https://github.com/lead-is-toxic/Thallium/issues"
+      }
+    }
+  ]
+}

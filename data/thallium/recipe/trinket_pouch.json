@@ -1,0 +1,74 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "s  ",
+    "r  ",
+    "   "
+  ],
+  "key": {
+    "s": [
+      "minecraft:string"
+    ],
+    "r": [
+      "minecraft:sugar_cane"
+    ]
+  },
+  "result": {
+    "id": "minecraft:yellow_bundle",
+    "components": {
+      "minecraft:item_name": {
+        "translate": "item.thallium.trinket_pouch"
+      },
+      "minecraft:lore": [
+        [
+          {
+            "text": "0 ",
+            "font": "thallium:icon",
+            "italic": false,
+            "color": "white"
+          },
+          {
+            "translate": "ui.thallium.title",
+            "font": "thallium:tooltip"
+          }
+        ],
+        {
+          "translate": "item.thallium.trinket_pouch.description.1",
+          "italic": false,
+          "color": "gray",
+          "with": [
+            {
+              "translate": "item.thallium.trinket_pouch.description.2",
+              "color": "#a9dd52"
+            }
+          ]
+        },
+        "",
+        {
+          "translate": "item.thallium.trinket_pouch.empty",
+          "italic": true,
+          "color": "dark_gray"
+        }
+      ],
+      "minecraft:tooltip_style": "thallium:thallium",
+      "minecraft:item_model": "thallium:trinket_pouch",
+      "minecraft:custom_data": {
+        "thallium": {
+          "id": "trinket_pouch",
+          "equipped": false
+        },
+        "smithed": {
+          "ignore": {
+            "functionality": true,
+            "crafting": true
+          }
+        }
+      },
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:bundle_contents"
+        ]
+      }
+    }
+  }
+}

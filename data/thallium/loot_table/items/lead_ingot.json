@@ -1,0 +1,181 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.thallium.lead_ingot"
+                },
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "0 ",
+                      "font": "thallium:icon",
+                      "italic": false,
+                      "color": "white"
+                    },
+                    {
+                      "translate": "ui.thallium.title",
+                      "font": "thallium:tooltip"
+                    }
+                  ],
+                  {
+                    "text": ""
+                  },
+                  {
+                    "translate": "item.thallium.lead_ingot.description.1",
+                    "italic": false,
+                    "color": "gray",
+                    "font": "thallium:5"
+                  },
+                  {
+                    "translate": "item.thallium.lead_ingot.description.2",
+                    "italic": false,
+                    "color": "gray",
+                    "font": "thallium:5"
+                  },
+                  "",
+                  {
+                    "translate": "item.thallium.lead_ingot.description.3",
+                    "italic": false,
+                    "color": "gray",
+                    "font": "thallium:5"
+                  },
+                  {
+                    "translate": "item.thallium.lead_ingot.description.4",
+                    "italic": false,
+                    "color": "gray",
+                    "font": "thallium:5"
+                  },
+                  "",
+                  {
+                    "translate": "item.thallium.lead_ingot.description.5",
+                    "italic": false,
+                    "color": "gray",
+                    "font": "thallium:5"
+                  },
+                  {
+                    "translate": "item.thallium.lead_ingot.description.6",
+                    "italic": false,
+                    "color": "gray",
+                    "font": "thallium:5"
+                  },
+                  {
+                    "translate": "item.thallium.lead_ingot.description.7",
+                    "italic": false,
+                    "color": "gray",
+                    "font": "thallium:5"
+                  },
+                  "",
+                  {
+                    "translate": "item.thallium.lead_ingot.description.8",
+                    "italic": false,
+                    "color": "gray",
+                    "font": "thallium:5"
+                  },
+                  {
+                    "translate": "item.thallium.lead_ingot.description.9",
+                    "italic": false,
+                    "color": "gray",
+                    "font": "thallium:5"
+                  },
+                  {
+                    "translate": "item.thallium.lead_ingot.description.10",
+                    "italic": false,
+                    "color": "gray",
+                    "font": "thallium:5"
+                  },
+                  {
+                    "translate": "item.thallium.lead_ingot.description.11",
+                    "italic": false,
+                    "color": "gray",
+                    "font": "thallium:5"
+                  },
+                  "",
+                  {
+                    "translate": "item.thallium.lead_ingot.description.12",
+                    "italic": false,
+                    "color": "gray",
+                    "font": "thallium:5"
+                  },
+                  {
+                    "translate": "item.thallium.lead_ingot.description.13",
+                    "italic": false,
+                    "color": "gray",
+                    "font": "thallium:5"
+                  },
+                  "",
+                  {
+                    "translate": "item.thallium.lead_ingot.description.14",
+                    "italic": false,
+                    "color": "gray",
+                    "font": "thallium:5"
+                  },
+                  {
+                    "translate": "item.thallium.lead_ingot.description.15",
+                    "italic": false,
+                    "color": "gray",
+                    "font": "thallium:5"
+                  },
+                  "",
+                  {
+                    "translate": "item.thallium.lead_ingot.description.16",
+                    "italic": false,
+                    "color": "gray",
+                    "font": "thallium:5"
+                  },
+                  "",
+                  {
+                    "translate": "item.thallium.lead_ingot.description.17",
+                    "italic": false,
+                    "color": "gray",
+                    "font": "thallium:5"
+                  },
+                  {
+                    "translate": "item.thallium.lead_ingot.description.18",
+                    "italic": false,
+                    "color": "gray",
+                    "font": "thallium:5"
+                  },
+                  {
+                    "translate": "item.thallium.lead_ingot.description.19",
+                    "italic": false,
+                    "color": "gray",
+                    "font": "thallium:5"
+                  },
+                  "",
+                  {
+                    "translate": "item.thallium.lead_ingot.description.20",
+                    "italic": false,
+                    "color": "gray",
+                    "font": "thallium:5"
+                  }
+                ],
+                "minecraft:item_model": "thallium:lead_ingot",
+                "minecraft:custom_data": {
+                  "thallium": {
+                    "id": "lead_ingot"
+                  },
+                  "smithed": {
+                    "ignore": {
+                      "functionality": true,
+                      "crafleadg": true
+                    }
+                  }
+                },
+                "!minecraft:consumable": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

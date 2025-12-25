@@ -1,0 +1,1 @@
+$item modify entity @s contents {function:"minecraft:set_lore",lore:$(tooltip),mode:"append"}

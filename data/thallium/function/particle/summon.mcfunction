@@ -1,0 +1,1 @@
+$execute summon minecraft:item_display run function thallium:particle/process {"model":"$(model)","time":"$(time)","billboard":"$(billboard)","transformation":"$(transformation)","brightness":"$(brightness)"}

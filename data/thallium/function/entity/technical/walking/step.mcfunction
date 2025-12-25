@@ -1,0 +1,2 @@
+execute store result score @s thallium.entity.step_sound run data get entity @s data.thallium.sounds.step.delay
+execute if entity @a[distance=..16] run function thallium:entity/technical/play_sound with entity @s data.thallium.sounds.step

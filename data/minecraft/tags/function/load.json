@@ -1,0 +1,8 @@
+{
+  "values": [
+    "pillars:load",
+    "thallium:technical/load",
+    "thallium:technical/second_clock",
+    "thallium:technical/ten_second_clock"
+  ]
+}

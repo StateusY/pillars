@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "translate": "ui.thallium.credits"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "ui.thallium.not_paused",
+        "color": "#e00239",
+        "font": "thallium:5"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        { "translate": "ui.thallium.hyphen",
+          "with": [ { "translate": "contributor.lead", "color": "#c99b73" }, { "translate": "contributor.thallium.lead.description" } ],
+          "click_event": { "action": "open_url", "url": "https://modrinth.com/user/LeadisToxic" },
+          "hover_event": { "action": "show_text", "value": { "text": "https://modrinth.com/user/LeadisToxic" } } },
+          "\n",
+        { "translate": "ui.thallium.hyphen",
+          "with": [ { "translate": "contributor.fracturedflux", "color": "#f35165" }, { "translate": "contributor.thallium.fracturedflux.description" } ],
+          "click_event": { "action": "open_url", "url": "https://modrinth.com/user/FracturedFlux" },
+          "hover_event": { "action": "show_text", "value": { "text": "https://modrinth.com/user/FracturedFlux" } } },
+          "\n",
+        { "translate": "ui.thallium.hyphen",
+          "with": [ { "translate": "contributor.creepermagnet", "color": "#006e1e" }, { "translate": "contributor.thallium.creepermagnet.description" } ],
+          "click_event": { "action": "open_url", "url": "https://thecreeperscode.com" },
+          "hover_event": { "action": "show_text", "value": { "text": "https://thecreeperscode.com" } } }
+      ],
+      "width": 500
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        { "translate": "ui.thallium.hyphen",
+          "with": [ { "translate": "contributor.phiphi", "color": "#a9f5f5" }, { "translate": "contributor.thallium.phiphi.description" } ],
+          "click_event": { "action": "open_url", "url": "https://modrinth.com/user/Phiphi" },
+          "hover_event": { "action": "show_text", "value": { "text": "https://modrinth.com/user/Phiphi" } } }
+      ],
+      "width": 500
+    }
+  ],
+  "pause": false,
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "thallium:root"
+    },
+    "width": 200
+  }
+}

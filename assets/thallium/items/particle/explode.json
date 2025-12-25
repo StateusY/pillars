@@ -1,0 +1,127 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thallium:item/particle/explosion/1"
+        },
+        "threshold": 1
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thallium:item/particle/explosion/2"
+        },
+        "threshold": 2
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thallium:item/particle/explosion/3"
+        },
+        "threshold": 3
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thallium:item/particle/explosion/4"
+        },
+        "threshold": 4
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thallium:item/particle/explosion/5"
+        },
+        "threshold": 5
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thallium:item/particle/explosion/6"
+        },
+        "threshold": 6
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thallium:item/particle/explosion/7"
+        },
+        "threshold": 7
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thallium:item/particle/explosion/8"
+        },
+        "threshold": 8
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thallium:item/particle/explosion/9"
+        },
+        "threshold": 9
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thallium:item/particle/explosion/10"
+        },
+        "threshold": 10
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thallium:item/particle/explosion/11"
+        },
+        "threshold": 11
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thallium:item/particle/explosion/12"
+        },
+        "threshold": 12
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thallium:item/particle/explosion/13"
+        },
+        "threshold": 13
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thallium:item/particle/explosion/14"
+        },
+        "threshold": 14
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thallium:item/particle/explosion/15"
+        },
+        "threshold": 15
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thallium:item/particle/explosion/16"
+        },
+        "threshold": 16
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "thallium:item/particle/explosion/17"
+        },
+        "threshold": 17
+      }
+    ]
+  }
+}

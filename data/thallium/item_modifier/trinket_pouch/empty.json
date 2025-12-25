@@ -1,0 +1,54 @@
+[
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "thallium": {
+        "equipped": false
+      }
+    }
+  },
+  {
+    "function": "minecraft:set_custom_model_data",
+    "flags": {
+      "values": [
+        false
+      ],
+      "mode": "replace_all"
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      [
+        {
+          "text": "0 ",
+          "font": "thallium:icon",
+          "italic": false,
+          "color": "white"
+        },
+        {
+          "translate": "ui.thallium.title",
+          "font": "thallium:tooltip"
+        }
+      ],
+      {
+        "translate": "item.thallium.trinket_pouch.description.1",
+        "italic": false,
+        "color": "gray",
+        "with": [
+          {
+            "translate": "item.thallium.trinket_pouch.description.2",
+            "color": "#a9dd52"
+          }
+        ]
+      },
+      "",
+      {
+        "translate": "item.thallium.trinket_pouch.empty",
+        "italic": true,
+        "color": "dark_gray"
+      }
+    ],
+    "mode": "replace_all"
+  }
+]

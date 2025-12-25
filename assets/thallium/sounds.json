@@ -1,0 +1,12 @@
+{
+  "ui.secret": {
+    "sounds": [
+      "thallium:secret"
+    ]
+  },
+  "particle.explosion": {
+    "sounds": [
+      "thallium:explosion"
+    ]
+  }
+}

@@ -1,5 +1,6 @@
 {
   "values": [
-    "pillars:tick"
+    "pillars:tick",
+    "thallium:technical/tick"
   ]
 }

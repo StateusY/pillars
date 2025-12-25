@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {
+      "type": "directory",
+      "source": "entity/thallium",
+      "prefix": "entity/"
+    },
+    {
+      "type": "directory",
+      "source": "gui/thallium",
+      "prefix": "gui/"
+    }
+  ]
+}
