@@ -1,8 +1,10 @@
 {
-  "values": [
-    "pillars:load",
-    "thallium:technical/load",
-    "thallium:technical/second_clock",
-    "thallium:technical/ten_second_clock"
-  ]
+	"replace": false,
+	"values": [
+		"animated_java:global/on_load",
+		"pillars:technical/load",
+		"thallium:technical/load",
+		"thallium:technical/second_clock",
+		"thallium:technical/ten_second_clock"
+	]
 }

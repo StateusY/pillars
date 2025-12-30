@@ -1,14 +1,9 @@
 {
-  "sources": [
-    {
-      "type": "directory",
-      "source": "entity/thallium",
-      "prefix": "entity/"
-    },
-    {
-      "type": "directory",
-      "source": "gui/thallium",
-      "prefix": "gui/"
-    }
-  ]
+	"sources": [
+		{
+			"type": "directory",
+			"source": "blueprint",
+			"prefix": "blueprint/"
+		}
+	]
 }

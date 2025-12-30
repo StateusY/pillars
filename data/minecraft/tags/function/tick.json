@@ -1,6 +1,4 @@
 {
-  "values": [
-    "pillars:tick",
-    "thallium:technical/tick"
-  ]
+	"replace": false,
+	"values": ["pillars:tick", "thallium:technical/tick", "animated_java:global/on_tick"]
 }

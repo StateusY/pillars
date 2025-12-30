@@ -1,0 +1,1 @@
+function thallium:technical/list/hook {namespace:"pillars",pack_text:[{text:"0 ",color:"white",font:"pillars:icon"},{translate:"ui.pillars.title",color:"white",font:"pillars:tooltip"}],version:{translate:"ui.pillars.version"},version_title:{translate:"ui.pillars.update",color:"#9badb7",font:"thallium:5"}}
