@@ -1,1 +1,0 @@
-# plays when pillar is first formed and player approaches

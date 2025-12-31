@@ -137,7 +137,6 @@
 				"data/animated_java/function/pillars/zzz/summon/animation_arg/try_set_frame.mcfunction",
 				"data/animated_java/function/pillars/zzz/summon/as_data_entity.mcfunction",
 				"data/animated_java/function/pillars/zzz/summon/as_root_entity.mcfunction",
-				"data/animated_java/function/pillars/zzz/summon/rig_on_summon.mcfunction",
 				"data/animated_java/function/pillars/zzz/summon/zzz/variant_arg/no_variants_warning.mcfunction",
 				"data/animated_java/function/pillars/zzz/zzz/set_default_pose/as_locator_locator.mcfunction",
 				"data/animated_java/tags/function/global/on_load.json",

@@ -12,6 +12,5 @@ execute on passengers if entity @s[tag=aj.global.data] run function animated_jav
 execute on passengers run rotate @s ~ ~
 data modify entity @s teleport_duration set value 1
 execute on passengers run data modify entity @s teleport_duration set value 1
-execute at @s run function animated_java:pillars/zzz/summon/rig_on_summon
 tag @s remove aj.new
 execute on passengers run tag @s remove aj.new
