@@ -1,1 +1,0 @@
-give @p sheep_spawn_egg[entity_data={id:"minecraft:block_display",NoGravity:1b,Silent:1b,Tags:["pl.pillar_root"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.01f,0.01f,0.01f]},block_state:{Name:"minecraft:barrier"}},custom_name="Pillar Root Place"] 1

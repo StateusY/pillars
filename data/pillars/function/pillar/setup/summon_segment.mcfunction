@@ -1,3 +1,6 @@
+# Unused
+
+
 # summons a block segment of the pillar
 
 $summon item_display ~ ~ ~ {Tags:["pl.pillar_segment","pl.segment0"],item:{id:"$(layer0)",count:1},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.5f,0f],scale:[1f,1f,1f]}}

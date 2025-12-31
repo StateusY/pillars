@@ -6,5 +6,5 @@ execute if score @s aj.idle_pillar.frame matches -1 run function animated_java:p
 data remove storage animated_java:temp args
 execute store result storage animated_java:temp args.frame int 1 run scoreboard players get @s aj.idle_pillar.frame
 function animated_java:pillars/animations/idle_pillar/zzz/apply_frame with storage animated_java:temp args
-execute if score @s aj.idle_pillar.frame matches 19.. run return run scoreboard players set @s aj.idle_pillar.frame -1
+execute if score @s aj.idle_pillar.frame matches 39.. run return run scoreboard players set @s aj.idle_pillar.frame -1
 scoreboard players add @s aj.idle_pillar.frame 1

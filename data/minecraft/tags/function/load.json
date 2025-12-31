@@ -2,6 +2,7 @@
 	"replace": false,
 	"values": [
 		"animated_java:global/on_load",
+		"pillars:load",
 		"pillars:technical/load",
 		"thallium:technical/load",
 		"thallium:technical/second_clock",

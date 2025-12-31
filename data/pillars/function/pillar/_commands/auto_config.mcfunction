@@ -1,0 +1,1 @@
+execute as @n[tag=pl.pillar_root] at @s run function pillars:pillar/configure_pillar

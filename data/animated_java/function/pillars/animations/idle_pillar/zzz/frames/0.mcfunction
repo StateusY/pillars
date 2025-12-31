@@ -2,3 +2,4 @@
 $data merge entity $(item_display_item_display) {transformation: [-1f,0f,0f,0f,0f,1f,0f,0.8125f,0f,0f,-1f,0f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(item_display_item_display1) {transformation: [-1f,0f,0f,0f,0f,1f,0f,3.3125f,0f,0f,-1f,0f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
 $data merge entity $(item_display_item_display2) {transformation: [-1f,0f,0f,0f,0f,1f,0f,2.0625f,0f,0f,-1f,0f,0f,0f,0f,1f],start_interpolation: 0,interpolation_duration: 1}
+data modify entity @s data merge value {"cameras":{},"locators":{"locator":{"px":0,"py":0,"pz":0,"ry":0,"rx":0}}}
