@@ -9,6 +9,9 @@ function pillars:pillar/setup/layer_check {layer:0}
 function pillars:pillar/setup/layer_check {layer:1}
 function pillars:pillar/setup/layer_check {layer:2}
 
+# scary! lightning
+#summon lightning_bolt ~ ~1 ~
+
 #fill ~ ~ ~ ~ ~2 ~ barrier
 fill ~ ~ ~ ~ ~2 ~ air
 
@@ -17,6 +20,9 @@ fill ~ ~ ~ ~ ~2 ~ air
 data modify entity @s data.custom_data.pl.args set value {}
 function pillars:pillar/animations/ajsummon with entity @s data.custom_data.pl
 
+# set the state to awakening and start the awake anim
+tag @n[type=item_display, tag=aj.pillars.root] add pl.state_awakening
+execute as @n[type=item_display, tag=aj.pillars.root] run function animated_java:pillars/animations/awake_pillar/play
 
 
 

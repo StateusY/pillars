@@ -4,7 +4,7 @@
 
 # the layer value starts at 0 (the base) and increases upward.
 
-# all supported blocks: stone, stone bricks, mossy stone bricks, chiseled stone bricks, cobblestone, mossy cobblestone, iron ore, andesite, polished deepslate, deepslate, chiseled deepslate, deepslate bricks, deepslate tiles, observer, oak log, oak planks, chiseled sandstone, smooth sandstone, sandstone, chiseled red sandstone, smooth red sandstone, red sandstone, budding amethyst, amethyst block, calcite, sea lantern, prismarine bricks, prismarine, infested chiseled stone bricks, infested stone bricks, infested mossy stone bricks, blue ice, packed ice
+# all supported blocks: stone, stone bricks, mossy stone bricks, chiseled stone bricks, cobblestone, mossy cobblestone, iron ore, andesite, polished deepslate, deepslate, chiseled deepslate, deepslate bricks, deepslate tiles, observer, oak log, oak planks, chiseled sandstone, smooth sandstone, sandstone, chiseled red sandstone, smooth red sandstone, red sandstone, budding amethyst, amethyst block, calcite, sea lantern, prismarine bricks, prismarine, infested chiseled stone bricks, infested stone bricks, infested mossy stone bricks, blue ice, packed ice, cracked deepslate bricks
 
 $execute at @s if block ~ ~$(layer) ~ minecraft:stone run function pillars:pillar/setup/set_block {layer:"$(layer)",block:"minecraft:stone"}
 $execute at @s if block ~ ~$(layer) ~ minecraft:stone_bricks run function pillars:pillar/setup/set_block {layer:"$(layer)",block:"minecraft:stone_bricks"}
@@ -39,3 +39,4 @@ $execute at @s if block ~ ~$(layer) ~ minecraft:infested_stone_bricks run functi
 $execute at @s if block ~ ~$(layer) ~ minecraft:infested_mossy_stone_bricks run function pillars:pillar/setup/set_block {layer:"$(layer)",block:"minecraft:infested_mossy_stone_bricks"}
 $execute at @s if block ~ ~$(layer) ~ minecraft:blue_ice run function pillars:pillar/setup/set_block {layer:"$(layer)",block:"minecraft:blue_ice"}
 $execute at @s if block ~ ~$(layer) ~ minecraft:packed_ice run function pillars:pillar/setup/set_block {layer:"$(layer)",block:"minecraft:packed_ice"}
+$execute at @s if block ~ ~$(layer) ~ minecraft:cracked_deepslate_bricks run function pillars:pillar/setup/set_block {layer:"$(layer)",block:"minecraft:cracked_deepslate_bricks"}

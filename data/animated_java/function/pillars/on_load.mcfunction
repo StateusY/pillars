@@ -2,3 +2,4 @@
 data modify storage animated_java:pillars rig_hash set value '4a3441ddd44f9fff9ffeca65143fd28b3f840b887a1b2d6256b30ec528d03d03'
 scoreboard objectives add aj.awake_pillar.frame dummy
 scoreboard objectives add aj.idle_pillar.frame dummy
+scoreboard objectives add aj.death_pillar.frame dummy
