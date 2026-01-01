@@ -3,5 +3,6 @@ execute unless entity @s[tag=aj.pillars.root] run return 0
 execute if entity @s[tag=aj.pillars.animation.awake_pillar.playing] run function animated_java:pillars/animations/awake_pillar/zzz/on_tick
 execute if entity @s[tag=aj.pillars.animation.idle_pillar.playing] run function animated_java:pillars/animations/idle_pillar/zzz/on_tick
 execute if entity @s[tag=aj.pillars.animation.death_pillar.playing] run function animated_java:pillars/animations/death_pillar/zzz/on_tick
+execute if entity @s[tag=aj.pillars.animation.spike_stone_bricks.playing] run function animated_java:pillars/animations/spike_stone_bricks/zzz/on_tick
 execute on passengers if entity @s[tag=aj.global.data] run function animated_java:pillars/root/on_tick/transform_floating_entities
 execute on passengers run rotate @s ~ ~

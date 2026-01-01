@@ -24,7 +24,7 @@
 			"position": [0, 8, 0],
 			"rotation": [0, 0, 0],
 			"scale": [1, 1, 1],
-			"visibility": true,
+			"visibility": false,
 			"locked": false,
 			"export": true,
 			"item": "minecraft:stone",
@@ -42,7 +42,7 @@
 			"position": [0, 40, 0],
 			"rotation": [0, 0, 0],
 			"scale": [1, 1, 1],
-			"visibility": true,
+			"visibility": false,
 			"locked": false,
 			"export": true,
 			"item": "minecraft:stone",
@@ -60,7 +60,7 @@
 			"position": [0, 24, 0],
 			"rotation": [0, 0, 0],
 			"scale": [1, 1, 1],
-			"visibility": true,
+			"visibility": false,
 			"locked": false,
 			"export": true,
 			"item": "minecraft:stone",
@@ -81,13 +81,299 @@
 			"config": null,
 			"uuid": "8d60d9b6-9275-5883-4266-017db581f8a7",
 			"type": "locator"
+		},
+		{
+			"uuid": "aeb46a6d-814f-8c27-3ab6-c6fe726a2dd9",
+			"type": "animated_java:vanilla_item_display",
+			"name": "item_display3",
+			"position": [0, 32, 0],
+			"rotation": [0, 0, 0],
+			"scale": [1, 1, 1],
+			"visibility": true,
+			"locked": false,
+			"export": true,
+			"item": "minecraft:stone_bricks",
+			"itemDisplay": "none",
+			"onSummonFunction": "",
+			"configs": {
+				"default": {},
+				"variants": {}
+			}
+		},
+		{
+			"uuid": "7d2c15d4-91de-092c-2a13-e9c475d879fa",
+			"type": "animated_java:vanilla_item_display",
+			"name": "item_display4",
+			"position": [0, 0, 16],
+			"rotation": [0, 0, 0],
+			"scale": [1, 1, 1],
+			"visibility": true,
+			"locked": false,
+			"export": true,
+			"item": "minecraft:stone_bricks",
+			"itemDisplay": "none",
+			"onSummonFunction": "",
+			"configs": {
+				"default": {},
+				"variants": {}
+			}
+		},
+		{
+			"uuid": "8c9bdf2c-0913-2f05-59cd-7ad15178ea7b",
+			"type": "animated_java:vanilla_item_display",
+			"name": "item_display5",
+			"position": [0, 0, -16],
+			"rotation": [0, 0, 0],
+			"scale": [1, 1, 1],
+			"visibility": true,
+			"locked": false,
+			"export": true,
+			"item": "minecraft:stone_bricks",
+			"itemDisplay": "none",
+			"onSummonFunction": "",
+			"configs": {
+				"default": {},
+				"variants": {}
+			}
+		},
+		{
+			"uuid": "07d69058-a578-3263-fd66-9748489eeca7",
+			"type": "animated_java:vanilla_item_display",
+			"name": "item_display6",
+			"position": [16, 0, 0],
+			"rotation": [0, 0, 0],
+			"scale": [1, 1, 1],
+			"visibility": true,
+			"locked": false,
+			"export": true,
+			"item": "minecraft:stone_bricks",
+			"itemDisplay": "none",
+			"onSummonFunction": "",
+			"configs": {
+				"default": {},
+				"variants": {}
+			}
+		},
+		{
+			"uuid": "349bdc57-39a4-10ab-c899-88f1ba054e81",
+			"type": "animated_java:vanilla_item_display",
+			"name": "item_display7",
+			"position": [-16, 0, 0],
+			"rotation": [0, 0, 0],
+			"scale": [1, 1, 1],
+			"visibility": true,
+			"locked": false,
+			"export": true,
+			"item": "minecraft:stone_bricks",
+			"itemDisplay": "none",
+			"onSummonFunction": "",
+			"configs": {
+				"default": {},
+				"variants": {}
+			}
+		},
+		{
+			"uuid": "2b4b8006-da3f-b6de-1743-1c127515c63e",
+			"type": "animated_java:vanilla_item_display",
+			"name": "item_display8",
+			"position": [0, 48, 0],
+			"rotation": [0, 0, 0],
+			"scale": [1, 1, 1],
+			"visibility": true,
+			"locked": false,
+			"export": true,
+			"item": "minecraft:stone_bricks",
+			"itemDisplay": "none",
+			"onSummonFunction": "",
+			"configs": {
+				"default": {},
+				"variants": {}
+			}
+		},
+		{
+			"uuid": "9ed2dc0c-b33b-c044-e94e-56cd10e9927b",
+			"type": "animated_java:vanilla_item_display",
+			"name": "item_display10",
+			"position": [0, 32, -16],
+			"rotation": [0, 0, 0],
+			"scale": [1, 1, 1],
+			"visibility": true,
+			"locked": false,
+			"export": true,
+			"item": "minecraft:stone_brick_slab",
+			"itemDisplay": "none",
+			"onSummonFunction": "",
+			"configs": {
+				"default": {},
+				"variants": {}
+			}
+		},
+		{
+			"uuid": "6972a787-09d3-8b8b-ebb4-869f4da9247c",
+			"type": "animated_java:vanilla_item_display",
+			"name": "item_display11",
+			"position": [16, 16, 0],
+			"rotation": [0, 0, 0],
+			"scale": [1, 1, 1],
+			"visibility": true,
+			"locked": false,
+			"export": true,
+			"item": "minecraft:stone_brick_slab",
+			"itemDisplay": "none",
+			"onSummonFunction": "",
+			"configs": {
+				"default": {},
+				"variants": {}
+			}
+		},
+		{
+			"uuid": "5e599357-b17f-13eb-51d6-8b64e70cece6",
+			"type": "animated_java:vanilla_item_display",
+			"name": "item_display12",
+			"position": [0, 32, 16],
+			"rotation": [0, 90, 0],
+			"scale": [1, 1, 1],
+			"visibility": true,
+			"locked": false,
+			"export": true,
+			"item": "minecraft:stone_brick_stairs",
+			"itemDisplay": "none",
+			"onSummonFunction": "",
+			"configs": {
+				"default": {},
+				"variants": {}
+			}
+		},
+		{
+			"uuid": "6b2c1fa5-0900-5620-af33-9f20d11bba7e",
+			"type": "animated_java:vanilla_item_display",
+			"name": "item_display13",
+			"position": [-16, 16, 0],
+			"rotation": [0, 0, 0],
+			"scale": [1, 1, 1],
+			"visibility": true,
+			"locked": false,
+			"export": true,
+			"item": "minecraft:stone_brick_stairs",
+			"itemDisplay": "none",
+			"onSummonFunction": "",
+			"configs": {
+				"default": {},
+				"variants": {}
+			}
+		},
+		{
+			"uuid": "bab8b515-3da9-d47a-869f-31e61d6ad560",
+			"type": "animated_java:vanilla_item_display",
+			"name": "item_display14",
+			"position": [0, 64, 0],
+			"rotation": [0, 0, 0],
+			"scale": [1, 1, 1],
+			"visibility": true,
+			"locked": false,
+			"export": true,
+			"item": "minecraft:stone_brick_stairs",
+			"itemDisplay": "none",
+			"onSummonFunction": "",
+			"configs": {
+				"default": {},
+				"variants": {}
+			}
+		},
+		{
+			"uuid": "f13d226d-8834-6627-5d7e-74cae1fe1906",
+			"type": "animated_java:vanilla_item_display",
+			"name": "item_display9",
+			"position": [0, 16, -16],
+			"rotation": [0, 0, 0],
+			"scale": [1, 1, 1],
+			"visibility": true,
+			"locked": false,
+			"export": true,
+			"item": "minecraft:stone_bricks",
+			"itemDisplay": "none",
+			"onSummonFunction": "",
+			"configs": {
+				"default": {},
+				"variants": {}
+			}
+		},
+		{
+			"uuid": "08fc8c1e-19df-861d-9f2c-6d6445d917c7",
+			"type": "animated_java:vanilla_item_display",
+			"name": "item_display15",
+			"position": [0, 16, 0],
+			"rotation": [0, 0, 0],
+			"scale": [1, 1, 1],
+			"visibility": true,
+			"locked": false,
+			"export": true,
+			"item": "minecraft:stone_bricks",
+			"itemDisplay": "none",
+			"onSummonFunction": "",
+			"configs": {
+				"default": {},
+				"variants": {}
+			}
+		},
+		{
+			"uuid": "1cb7c901-0242-c2eb-cc78-244ab45ff59a",
+			"type": "animated_java:vanilla_item_display",
+			"name": "item_display17",
+			"position": [0, 16, 16],
+			"rotation": [0, 0, 0],
+			"scale": [1, 1, 1],
+			"visibility": true,
+			"locked": false,
+			"export": true,
+			"item": "minecraft:stone_bricks",
+			"itemDisplay": "none",
+			"onSummonFunction": "",
+			"configs": {
+				"default": {},
+				"variants": {}
+			}
 		}
 	],
 	"outliner": [
 		"c21dd431-19ad-007b-7b83-55d1e6763e4e",
 		"46fdcb15-8d34-83bd-d7fe-12b481c0dcb7",
 		"119e7d48-9023-9845-4c97-d8658e4085c3",
-		"8d60d9b6-9275-5883-4266-017db581f8a7"
+		"8d60d9b6-9275-5883-4266-017db581f8a7",
+		{
+			"name": "stone_bricks_pile",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"onSummonFunction": "",
+			"configs": {
+				"default": {},
+				"variants": {}
+			},
+			"uuid": "1d537460-ab96-ab54-6788-ba9a0e9f993d",
+			"export": true,
+			"mirror_uv": false,
+			"isOpen": true,
+			"locked": false,
+			"visibility": true,
+			"autouv": 0,
+			"selected": true,
+			"children": [
+				"aeb46a6d-814f-8c27-3ab6-c6fe726a2dd9",
+				"08fc8c1e-19df-861d-9f2c-6d6445d917c7",
+				"2b4b8006-da3f-b6de-1743-1c127515c63e",
+				"7d2c15d4-91de-092c-2a13-e9c475d879fa",
+				"1cb7c901-0242-c2eb-cc78-244ab45ff59a",
+				"8c9bdf2c-0913-2f05-59cd-7ad15178ea7b",
+				"f13d226d-8834-6627-5d7e-74cae1fe1906",
+				"07d69058-a578-3263-fd66-9748489eeca7",
+				"349bdc57-39a4-10ab-c899-88f1ba054e81",
+				"9ed2dc0c-b33b-c044-e94e-56cd10e9927b",
+				"6b2c1fa5-0900-5620-af33-9f20d11bba7e",
+				"6972a787-09d3-8b8b-ebb4-869f4da9247c",
+				"5e599357-b17f-13eb-51d6-8b64e70cece6",
+				"bab8b515-3da9-d47a-869f-31e61d6ad560"
+			]
+		}
 	],
 	"textures": [],
 	"variants": {
@@ -109,7 +395,7 @@
 			"override": false,
 			"length": 1,
 			"snapping": 20,
-			"selected": true,
+			"selected": false,
 			"saved": true,
 			"path": "",
 			"anim_time_update": "",
@@ -1148,6 +1434,284 @@
 							],
 							"uuid": "fbd9ad5d-87e7-03de-15e6-3681483f2f0c",
 							"time": 1.95,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						}
+					]
+				}
+			}
+		},
+		{
+			"uuid": "54e95de7-d502-b3be-c36c-efa312eaf5b2",
+			"name": "spike.stone_bricks",
+			"loop": "hold",
+			"override": false,
+			"length": 4,
+			"snapping": 20,
+			"selected": true,
+			"saved": true,
+			"path": "",
+			"anim_time_update": "",
+			"blend_weight": "",
+			"start_delay": "",
+			"loop_delay": "0",
+			"excluded_nodes": [],
+			"animators": {
+				"1d537460-ab96-ab54-6788-ba9a0e9f993d": {
+					"name": "stone_bricks_pile",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "-73",
+									"z": "0"
+								}
+							],
+							"uuid": "716eb5eb-d9ad-ff08-7ee8-7914e1543847",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "8",
+									"z": "0"
+								}
+							],
+							"uuid": "af62b680-ce04-a795-5736-0aeea1b1fe87",
+							"time": 0.1,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear"
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "-2",
+									"y": "-73",
+									"z": "0"
+								}
+							],
+							"uuid": "6ec7e3b4-23db-61bd-d8cf-0013c9fac8ec",
+							"time": 4,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0\n",
+									"y": "8",
+									"z": "0"
+								}
+							],
+							"uuid": "762e4cc0-e070-21d5-8b27-ca807ebe04a4",
+							"time": 2.7,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear"
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "-2",
+									"y": "1.77",
+									"z": "0"
+								}
+							],
+							"uuid": "c7b6f094-6041-5253-a960-7112f04c7305",
+							"time": 2.8,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "2",
+									"y": "-4.46",
+									"z": "0"
+								}
+							],
+							"uuid": "478d80ab-a9d3-8b0f-43d4-776b74a37651",
+							"time": 2.9,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "-2",
+									"y": "-10.69",
+									"z": "0"
+								}
+							],
+							"uuid": "d95c399c-f480-85f3-00ed-5077db401f95",
+							"time": 3,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "2",
+									"y": "-16.92",
+									"z": "0"
+								}
+							],
+							"uuid": "5866909e-1690-3605-e5ad-78294c4d096d",
+							"time": 3.1,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "-2",
+									"y": "-23.15",
+									"z": "0"
+								}
+							],
+							"uuid": "be268506-33fc-037e-3f78-2d3c3910d8d7",
+							"time": 3.2,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "2",
+									"y": "-29.38",
+									"z": "0"
+								}
+							],
+							"uuid": "b3c76f09-3840-e90d-4e07-e8684cd45d9a",
+							"time": 3.3,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "-2",
+									"y": "-35.61",
+									"z": "0"
+								}
+							],
+							"uuid": "43656a76-17bc-e58f-66b4-81da8ee00f8e",
+							"time": 3.4,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "2",
+									"y": "-41.84",
+									"z": "0"
+								}
+							],
+							"uuid": "04a68ac1-ceea-e276-5793-7f0cf8cc1083",
+							"time": 3.5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "-2",
+									"y": "-48.07",
+									"z": "0"
+								}
+							],
+							"uuid": "4811ff96-5918-a46b-25a2-53bcf3099295",
+							"time": 3.6,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "2",
+									"y": "-54.3",
+									"z": "0"
+								}
+							],
+							"uuid": "6bc633a4-0aff-8d6f-1f1f-d9a9209dc3f4",
+							"time": 3.7,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "-2",
+									"y": "-60.53",
+									"z": "0"
+								}
+							],
+							"uuid": "fe1149da-946c-ba11-b814-2133d99b7e36",
+							"time": 3.8,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "2",
+									"y": "-66.76",
+									"z": "0"
+								}
+							],
+							"uuid": "7e5f23f5-1335-22a0-e85b-49ca45e7264e",
+							"time": 3.9,
 							"color": -1,
 							"interpolation": "linear",
 							"easing": "linear",

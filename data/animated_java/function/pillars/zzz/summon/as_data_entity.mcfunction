@@ -12,3 +12,45 @@ data modify entity @s data.uuids_by_name.item_display_item_display1 set from sto
 execute on vehicle on passengers if entity @s[tag=aj.pillars.node.item_display2] run function animated_java:global/gu/get_entity_uuid_string
 data modify entity @s data.uuids append from storage animated_java:gu out
 data modify entity @s data.uuids_by_name.item_display_item_display2 set from storage animated_java:gu out
+execute on vehicle on passengers if entity @s[tag=aj.pillars.node.item_display3] run function animated_java:global/gu/get_entity_uuid_string
+data modify entity @s data.uuids append from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.item_display_item_display3 set from storage animated_java:gu out
+execute on vehicle on passengers if entity @s[tag=aj.pillars.node.item_display15] run function animated_java:global/gu/get_entity_uuid_string
+data modify entity @s data.uuids append from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.item_display_item_display15 set from storage animated_java:gu out
+execute on vehicle on passengers if entity @s[tag=aj.pillars.node.item_display8] run function animated_java:global/gu/get_entity_uuid_string
+data modify entity @s data.uuids append from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.item_display_item_display8 set from storage animated_java:gu out
+execute on vehicle on passengers if entity @s[tag=aj.pillars.node.item_display4] run function animated_java:global/gu/get_entity_uuid_string
+data modify entity @s data.uuids append from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.item_display_item_display4 set from storage animated_java:gu out
+execute on vehicle on passengers if entity @s[tag=aj.pillars.node.item_display17] run function animated_java:global/gu/get_entity_uuid_string
+data modify entity @s data.uuids append from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.item_display_item_display17 set from storage animated_java:gu out
+execute on vehicle on passengers if entity @s[tag=aj.pillars.node.item_display5] run function animated_java:global/gu/get_entity_uuid_string
+data modify entity @s data.uuids append from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.item_display_item_display5 set from storage animated_java:gu out
+execute on vehicle on passengers if entity @s[tag=aj.pillars.node.item_display9] run function animated_java:global/gu/get_entity_uuid_string
+data modify entity @s data.uuids append from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.item_display_item_display9 set from storage animated_java:gu out
+execute on vehicle on passengers if entity @s[tag=aj.pillars.node.item_display6] run function animated_java:global/gu/get_entity_uuid_string
+data modify entity @s data.uuids append from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.item_display_item_display6 set from storage animated_java:gu out
+execute on vehicle on passengers if entity @s[tag=aj.pillars.node.item_display7] run function animated_java:global/gu/get_entity_uuid_string
+data modify entity @s data.uuids append from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.item_display_item_display7 set from storage animated_java:gu out
+execute on vehicle on passengers if entity @s[tag=aj.pillars.node.item_display10] run function animated_java:global/gu/get_entity_uuid_string
+data modify entity @s data.uuids append from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.item_display_item_display10 set from storage animated_java:gu out
+execute on vehicle on passengers if entity @s[tag=aj.pillars.node.item_display13] run function animated_java:global/gu/get_entity_uuid_string
+data modify entity @s data.uuids append from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.item_display_item_display13 set from storage animated_java:gu out
+execute on vehicle on passengers if entity @s[tag=aj.pillars.node.item_display11] run function animated_java:global/gu/get_entity_uuid_string
+data modify entity @s data.uuids append from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.item_display_item_display11 set from storage animated_java:gu out
+execute on vehicle on passengers if entity @s[tag=aj.pillars.node.item_display12] run function animated_java:global/gu/get_entity_uuid_string
+data modify entity @s data.uuids append from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.item_display_item_display12 set from storage animated_java:gu out
+execute on vehicle on passengers if entity @s[tag=aj.pillars.node.item_display14] run function animated_java:global/gu/get_entity_uuid_string
+data modify entity @s data.uuids append from storage animated_java:gu out
+data modify entity @s data.uuids_by_name.item_display_item_display14 set from storage animated_java:gu out
