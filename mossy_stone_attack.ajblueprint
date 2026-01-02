@@ -1,0 +1,340 @@
+{
+	"meta": {
+		"format": "animated-java:format/blueprint",
+		"format_version": "1.8.1",
+		"uuid": "06863c06-fd84-9808-ba1f-7b1ef126eb42",
+		"save_location": "/home/stateus/Documents/GitHub/pillars/mossy_stone_attack.ajblueprint",
+		"last_used_export_namespace": "pillars"
+	},
+	"resolution": {
+		"width": 16,
+		"height": 16
+	},
+	"blueprint_settings": {
+		"export_namespace": "pillars",
+		"render_box": [48, 48],
+		"resource_pack": "/home/stateus/Documents/GitHub/pillars",
+		"data_pack": "/home/stateus/Documents/GitHub/pillars"
+	},
+	"elements": [
+		{
+			"uuid": "28e3dd77-22fe-4d9a-e59f-86a4d3cad13c",
+			"type": "animated_java:vanilla_item_display",
+			"name": "item_display3",
+			"position": [0, 32, 0],
+			"rotation": [0, 0, 0],
+			"scale": [1, 1, 1],
+			"visibility": true,
+			"locked": false,
+			"export": true,
+			"item": "minecraft:mossy_stone_bricks",
+			"itemDisplay": "none",
+			"onSummonFunction": "",
+			"configs": {
+				"default": {},
+				"variants": {}
+			}
+		},
+		{
+			"uuid": "64368946-a051-2124-b5e5-778e955d1dfa",
+			"type": "animated_java:vanilla_item_display",
+			"name": "item_display8",
+			"position": [0, 48, 0],
+			"rotation": [0, 0, 0],
+			"scale": [1, 1, 1],
+			"visibility": true,
+			"locked": false,
+			"export": true,
+			"item": "minecraft:mossy_stone_bricks",
+			"itemDisplay": "none",
+			"onSummonFunction": "",
+			"configs": {
+				"default": {},
+				"variants": {}
+			}
+		},
+		{
+			"uuid": "111fecb4-02a6-228e-e626-7571123a9b2e",
+			"type": "animated_java:vanilla_item_display",
+			"name": "item_display15",
+			"position": [0, 16, 0],
+			"rotation": [0, 0, 0],
+			"scale": [1, 1, 1],
+			"visibility": true,
+			"locked": false,
+			"export": true,
+			"item": "minecraft:mossy_stone_bricks",
+			"itemDisplay": "none",
+			"onSummonFunction": "",
+			"configs": {
+				"default": {},
+				"variants": {}
+			}
+		},
+		{
+			"uuid": "99de7105-6c0a-51f6-6494-5d9ce73fbfcb",
+			"type": "animated_java:vanilla_item_display",
+			"name": "item_display4",
+			"position": [0, 0, 16],
+			"rotation": [0, 0, 0],
+			"scale": [1, 1, 1],
+			"visibility": true,
+			"locked": false,
+			"export": true,
+			"item": "minecraft:mossy_stone_bricks",
+			"itemDisplay": "none",
+			"onSummonFunction": "",
+			"configs": {
+				"default": {},
+				"variants": {}
+			}
+		},
+		{
+			"uuid": "8176cf83-9cdd-efe2-5457-0aa518f2e863",
+			"type": "animated_java:vanilla_item_display",
+			"name": "item_display17",
+			"position": [0, 16, 16],
+			"rotation": [0, 0, 0],
+			"scale": [1, 1, 1],
+			"visibility": true,
+			"locked": false,
+			"export": true,
+			"item": "minecraft:mossy_stone_bricks",
+			"itemDisplay": "none",
+			"onSummonFunction": "",
+			"configs": {
+				"default": {},
+				"variants": {}
+			}
+		},
+		{
+			"uuid": "82ce9aa8-e14e-8902-07d3-d4b340ec4131",
+			"type": "animated_java:vanilla_item_display",
+			"name": "item_display5",
+			"position": [0, 0, -16],
+			"rotation": [0, 0, 0],
+			"scale": [1, 1, 1],
+			"visibility": true,
+			"locked": false,
+			"export": true,
+			"item": "minecraft:mossy_stone_bricks",
+			"itemDisplay": "none",
+			"onSummonFunction": "",
+			"configs": {
+				"default": {},
+				"variants": {}
+			}
+		},
+		{
+			"uuid": "37e6ba69-018e-12dd-5c45-f62c6d62c6f1",
+			"type": "animated_java:vanilla_item_display",
+			"name": "item_display9",
+			"position": [0, 16, -16],
+			"rotation": [0, 0, 0],
+			"scale": [1, 1, 1],
+			"visibility": true,
+			"locked": false,
+			"export": true,
+			"item": "minecraft:mossy_stone_bricks",
+			"itemDisplay": "none",
+			"onSummonFunction": "",
+			"configs": {
+				"default": {},
+				"variants": {}
+			}
+		},
+		{
+			"uuid": "c738edbc-2447-26e7-8b10-63ba1b580cda",
+			"type": "animated_java:vanilla_item_display",
+			"name": "item_display6",
+			"position": [16, 0, 0],
+			"rotation": [0, 0, 0],
+			"scale": [1, 1, 1],
+			"visibility": true,
+			"locked": false,
+			"export": true,
+			"item": "minecraft:mossy_stone_bricks",
+			"itemDisplay": "none",
+			"onSummonFunction": "",
+			"configs": {
+				"default": {},
+				"variants": {}
+			}
+		},
+		{
+			"uuid": "d5b7a281-f05f-9285-504e-f267fca84f41",
+			"type": "animated_java:vanilla_item_display",
+			"name": "item_display7",
+			"position": [-16, 0, 0],
+			"rotation": [0, 0, 0],
+			"scale": [1, 1, 1],
+			"visibility": true,
+			"locked": false,
+			"export": true,
+			"item": "minecraft:mossy_stone_bricks",
+			"itemDisplay": "none",
+			"onSummonFunction": "",
+			"configs": {
+				"default": {},
+				"variants": {}
+			}
+		},
+		{
+			"uuid": "41caa668-b07e-0e65-ccc8-c73c148c25b6",
+			"type": "animated_java:vanilla_item_display",
+			"name": "item_display10",
+			"position": [0, 32, -16],
+			"rotation": [0, 0, 0],
+			"scale": [1, 1, 1],
+			"visibility": true,
+			"locked": false,
+			"export": true,
+			"item": "minecraft:mossy_stone_brick_slab",
+			"itemDisplay": "none",
+			"onSummonFunction": "",
+			"configs": {
+				"default": {},
+				"variants": {}
+			}
+		},
+		{
+			"uuid": "4fb95d05-e2cf-d6c4-9cf9-bbacb5d69e72",
+			"type": "animated_java:vanilla_item_display",
+			"name": "item_display13",
+			"position": [-16, 16, 0],
+			"rotation": [0, 0, 0],
+			"scale": [1, 1, 1],
+			"visibility": true,
+			"locked": false,
+			"export": true,
+			"item": "minecraft:mossy_stone_brick_stairs",
+			"itemDisplay": "none",
+			"onSummonFunction": "",
+			"configs": {
+				"default": {},
+				"variants": {}
+			}
+		},
+		{
+			"uuid": "65e245d8-a303-48a9-d310-e193b3a5b804",
+			"type": "animated_java:vanilla_item_display",
+			"name": "item_display11",
+			"position": [16, 16, 0],
+			"rotation": [0, 0, 0],
+			"scale": [1, 1, 1],
+			"visibility": true,
+			"locked": false,
+			"export": true,
+			"item": "minecraft:mossy_stone_brick_slab",
+			"itemDisplay": "none",
+			"onSummonFunction": "",
+			"configs": {
+				"default": {},
+				"variants": {}
+			}
+		},
+		{
+			"uuid": "b06ce2e7-f8ee-b1fd-5854-0290f1278e48",
+			"type": "animated_java:vanilla_item_display",
+			"name": "item_display12",
+			"position": [0, 32, 16],
+			"rotation": [0, 90, 0],
+			"scale": [1, 1, 1],
+			"visibility": true,
+			"locked": false,
+			"export": true,
+			"item": "minecraft:mossy_stone_brick_stairs",
+			"itemDisplay": "none",
+			"onSummonFunction": "",
+			"configs": {
+				"default": {},
+				"variants": {}
+			}
+		},
+		{
+			"uuid": "29442750-dddb-b452-02e2-fb7b4ff49373",
+			"type": "animated_java:vanilla_item_display",
+			"name": "item_display14",
+			"position": [0, 64, 0],
+			"rotation": [0, 0, 0],
+			"scale": [1, 1, 1],
+			"visibility": true,
+			"locked": false,
+			"export": true,
+			"item": "minecraft:mossy_stone_brick_stairs",
+			"itemDisplay": "none",
+			"onSummonFunction": "",
+			"configs": {
+				"default": {},
+				"variants": {}
+			}
+		}
+	],
+	"outliner": [
+		{
+			"name": "stone_bricks_pile",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"onSummonFunction": "",
+			"configs": {
+				"default": {},
+				"variants": {}
+			},
+			"uuid": "2267ebef-12ea-cd2d-e262-3b65541efa8e",
+			"export": true,
+			"mirror_uv": false,
+			"isOpen": true,
+			"locked": false,
+			"visibility": true,
+			"autouv": 0,
+			"selected": false,
+			"children": [
+				"28e3dd77-22fe-4d9a-e59f-86a4d3cad13c",
+				"64368946-a051-2124-b5e5-778e955d1dfa",
+				"111fecb4-02a6-228e-e626-7571123a9b2e",
+				"99de7105-6c0a-51f6-6494-5d9ce73fbfcb",
+				"8176cf83-9cdd-efe2-5457-0aa518f2e863",
+				"82ce9aa8-e14e-8902-07d3-d4b340ec4131",
+				"37e6ba69-018e-12dd-5c45-f62c6d62c6f1",
+				"c738edbc-2447-26e7-8b10-63ba1b580cda",
+				"d5b7a281-f05f-9285-504e-f267fca84f41",
+				"41caa668-b07e-0e65-ccc8-c73c148c25b6",
+				"4fb95d05-e2cf-d6c4-9cf9-bbacb5d69e72",
+				"65e245d8-a303-48a9-d310-e193b3a5b804",
+				"b06ce2e7-f8ee-b1fd-5854-0290f1278e48",
+				"29442750-dddb-b452-02e2-fb7b4ff49373"
+			]
+		}
+	],
+	"textures": [],
+	"variants": {
+		"default": {
+			"name": "default",
+			"display_name": "Default",
+			"uuid": "d1f3103a-071b-326d-6735-d723dfb0edd8",
+			"texture_map": {},
+			"excluded_nodes": [],
+			"is_default": true
+		},
+		"list": []
+	},
+	"animations": [
+		{
+			"uuid": "140eb892-4b3b-3395-6b0d-c932e2fa446f",
+			"name": "spike.stone_bricks",
+			"loop": "hold",
+			"override": false,
+			"length": 4,
+			"snapping": 20,
+			"selected": true,
+			"saved": true,
+			"path": "",
+			"anim_time_update": "",
+			"blend_weight": "",
+			"start_delay": "",
+			"loop_delay": "0",
+			"excluded_nodes": [],
+			"animators": {}
+		}
+	]
+}

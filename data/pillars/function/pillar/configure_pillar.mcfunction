@@ -9,16 +9,21 @@ function pillars:pillar/setup/layer_check {layer:0}
 function pillars:pillar/setup/layer_check {layer:1}
 function pillars:pillar/setup/layer_check {layer:2}
 
-# scary! lightning
+# scary! lightning!
 #summon lightning_bolt ~ ~1 ~
 
 #fill ~ ~ ~ ~ ~2 ~ barrier
-fill ~ ~ ~ ~ ~2 ~ air
+fill ~ ~ ~ ~ ~3 ~ air
 
 # summon the segments
 #function pillars:pillar/setup/summon_segment with entity @s data.custom_data.pl
 data modify entity @s data.custom_data.pl.args set value {}
 function pillars:pillar/animations/ajsummon with entity @s data.custom_data.pl
+
+# give the root the segment block data for when resetting later and smithed compat tag
+data modify entity @n[type=item_display, tag=aj.pillars.root] data.custom_data.pl set from entity @s data.custom_data.pl
+tag @n[type=item_display, tag=aj.pillars.root] add smithed.entity
+tag @n[type=item_display, tag=aj.pillars.root] add smithed.strict
 
 # set the state to awakening and start the awake anim
 tag @n[type=item_display, tag=aj.pillars.root] add pl.state_awakening

@@ -8,7 +8,7 @@
             "minecraft:gold_ingot"
           ],
           "predicates": {
-            "minecraft:custom_data": {"custom_id": "pillar_controller"}
+            "minecraft:custom_data": {"pillars":{"id":"pillar_controller"}}
           }
         }
       }

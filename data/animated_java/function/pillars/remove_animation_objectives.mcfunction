@@ -2,5 +2,6 @@
 scoreboard objectives remove aj.awake_pillar.frame
 scoreboard objectives remove aj.idle_pillar.frame
 scoreboard objectives remove aj.death_pillar.frame
-scoreboard objectives remove aj.spike_stone_bricks.frame
+scoreboard objectives remove aj.resetting_pillar.frame
+scoreboard objectives remove aj.attack_stone_bricks.frame
 tellraw @a [{color:'gray',text:'\n '},{color:'#00aced',text:'ᴀɴɪᴍᴀᴛᴇᴅ ᴊᴀᴠᴀ'},{color:'dark_gray',italic:true,text:'\n (animated_java:pillars)'},'\n → ',{color:'green',text:'Successfully uninstalled '},{color:'yellow',text:'pillars'},{color:'green',text:'!'},{color:'gray',italic:true,text:'\n If you have exported multiple times, you may have to remove objectives from previous exports manually, as Animated Java only knows about the objectives from the most recent export.'},'\n']

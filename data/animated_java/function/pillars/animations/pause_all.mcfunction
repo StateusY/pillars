@@ -2,4 +2,5 @@
 tag @s remove aj.pillars.animation.awake_pillar.playing
 tag @s remove aj.pillars.animation.idle_pillar.playing
 tag @s remove aj.pillars.animation.death_pillar.playing
-tag @s remove aj.pillars.animation.spike_stone_bricks.playing
+tag @s remove aj.pillars.animation.resetting_pillar.playing
+tag @s remove aj.pillars.animation.attack_stone_bricks.playing

@@ -1,0 +1,10 @@
+{
+    "record.pretense": {
+    "sounds": [
+        {
+            "name": "pillars:record/pretense",
+            "stream": true
+        }
+    ]
+  }
+}

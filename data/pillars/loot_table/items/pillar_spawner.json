@@ -12,11 +12,25 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "Pillar Root Spawner",
+                "minecraft:item_name": {"translate": "item.pillars.pillar_spawner"},
                 "minecraft:lore": [
                   [
                     {
-                      "text": "RMB to place a pillar root to build upon!",
+                      "text": "0 ",
+                      "color": "white",
+                      "font": "pillars:icon",
+                      "italic": false
+                    },
+                    {
+                      "translate": "ui.pillars.title",
+                      "color": "white",
+                      "font": "pillars:tooltip",
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "translate": "item.pillars.pillar_spawner.lore_1",
                       "color": "gray",
                       "italic": false
                     }
@@ -30,14 +44,25 @@
                   "on_consume_effects": []
                 },
                 "minecraft:custom_data": {
-                  "custom_id": "pillar_spawner"
+                  "pillars":{"id":"pillar_spawner"},
+                  "smithed": {
+                    "ignore": {
+                      "functionality": true,
+                      "crafting": true
+                    }
+                  },
+                  "$jade:stack": {
+                      "id": "pillars:ancient_cog"
+                  }
                 },
                 "minecraft:max_stack_size": 1,
                 "minecraft:item_model": "minecraft:clock",
                 "minecraft:entity_data": {
                   "id": "minecraft:item_display",
                   "Tags": [
-                    "pl.pillar_root"
+                    "pl.pillar_root",
+                    "smithed.strict",
+                    "smithed.entity"
                   ]
                 }
               }

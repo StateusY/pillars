@@ -12,22 +12,37 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "Pillar Controller",
+                "minecraft:item_name": {"translate": "item.pillars.pillar_controller"},
                 "minecraft:lore": [
                   [
                     {
-                      "text": "RMB to activate the nearest pillar!",
-                      "color": "gray",
+                      "text": "0 ",
+                      "color": "white",
+                      "font": "pillars:icon",
+                      "italic": false
+                    },
+                    {
+                      "translate": "ui.pillars.title",
+                      "color": "white",
+                      "font": "pillars:tooltip",
                       "italic": false
                     }
                   ],
-                  [
-                    {
-                      "text": "Shift+RMB for the nearest pillar will go away!",
-                      "color": "gray",
-                      "italic": false
-                    }
-                  ]
+                  {
+                    "translate": "item.pillars.pillar_controller.lore_1",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.pillars.pillar_controller.lore_2",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.pillars.pillar_controller.lore_3",
+                    "color": "gray",
+                    "italic": false
+                  }
                 ],
                 "minecraft:consumable": {
                   "consume_seconds": 9999,
@@ -37,7 +52,16 @@
                   "on_consume_effects": []
                 },
                 "minecraft:custom_data": {
-                  "custom_id": "pillar_controller"
+                  "pillars":{"id":"pillar_controller"},
+                  "smithed": {
+                    "ignore": {
+                      "functionality": true,
+                      "crafting": true
+                    }
+                  },
+                  "$jade:stack": {
+                      "id": "pillars:ancient_cog"
+                  }
                 },
                 "minecraft:max_stack_size": 1,
                 "minecraft:item_model": "minecraft:compass"

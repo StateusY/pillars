@@ -5,6 +5,11 @@
 #  2. add the idle state tag
 #  3. trigger the idle anim
 
+# step 1
 tag @s remove pl.state_awakening
+
+# step 2
 tag @s add pl.state_idle
+
+# step 3
 execute as @s run function animated_java:pillars/animations/idle_pillar/play
