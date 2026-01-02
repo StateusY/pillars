@@ -5,5 +5,6 @@ execute if entity @s[tag=aj.pillars.animation.idle_pillar.playing] run function 
 execute if entity @s[tag=aj.pillars.animation.death_pillar.playing] run function animated_java:pillars/animations/death_pillar/zzz/on_tick
 execute if entity @s[tag=aj.pillars.animation.resetting_pillar.playing] run function animated_java:pillars/animations/resetting_pillar/zzz/on_tick
 execute if entity @s[tag=aj.pillars.animation.attack_stone_bricks.playing] run function animated_java:pillars/animations/attack_stone_bricks/zzz/on_tick
+execute if entity @s[tag=aj.pillars.animation.melee_pillar.playing] run function animated_java:pillars/animations/melee_pillar/zzz/on_tick
 execute on passengers if entity @s[tag=aj.global.data] run function animated_java:pillars/root/on_tick/transform_floating_entities
 execute on passengers run rotate @s ~ ~

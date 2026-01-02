@@ -5,3 +5,4 @@ scoreboard objectives add aj.idle_pillar.frame dummy
 scoreboard objectives add aj.death_pillar.frame dummy
 scoreboard objectives add aj.resetting_pillar.frame dummy
 scoreboard objectives add aj.attack_stone_bricks.frame dummy
+scoreboard objectives add aj.melee_pillar.frame dummy

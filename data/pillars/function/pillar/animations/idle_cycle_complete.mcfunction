@@ -12,6 +12,9 @@ execute if entity @s[tag=pl.next_state_resetting] run function pillars:pillar/re
 
 # the idle to death segway does not require this as the dying_pillar anim already takes the last frame of the idle_pillar anim into account
 
-# attack 1
+# melee
+execute if entity @e[type=!#pillars:ignored_by_pillar, distance=..2] run function animated_java:pillars/animations/melee_pillar/play
 
+
+# attack 1
 #execute if predicate {condition:"minecraft:random_chance",chance:0.5} run function animated_java:pillars/animations/attack_stone_bricks/play
