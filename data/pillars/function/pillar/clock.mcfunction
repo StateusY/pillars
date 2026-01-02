@@ -9,3 +9,5 @@
 # a pillar is given the idle state tag from an awakening state tag when the awake animation finishes and pillar/animations/end_state_awakening triggers
 
 # a pillar is given the dying state tag from an idle state tag in pillar/death/start_state_dying triggers
+
+#execute if entity @n[type=arrow] run function pillars:pillar/hit/arrow_hit

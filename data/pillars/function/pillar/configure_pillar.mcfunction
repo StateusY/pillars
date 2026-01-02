@@ -25,6 +25,10 @@ data modify entity @n[type=item_display, tag=aj.pillars.root] data.custom_data.p
 tag @n[type=item_display, tag=aj.pillars.root] add smithed.entity
 tag @n[type=item_display, tag=aj.pillars.root] add smithed.strict
 
+# summon and link the hitbox
+summon interaction ~ ~ ~ {width:1.5f,height:4f,Tags:["pl.pillar_hitbox"]}
+ride @n[type=interaction, tag=pl.pillar_hitbox] mount @n[type=item_display, tag=aj.pillars.root]
+
 # set the state to awakening and start the awake anim
 tag @n[type=item_display, tag=aj.pillars.root] add pl.state_awakening
 execute as @n[type=item_display, tag=aj.pillars.root] run function animated_java:pillars/animations/awake_pillar/play
