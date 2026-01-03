@@ -8,13 +8,13 @@
             "minecraft:poisonous_potato"
           ],
           "predicates": {
-            "minecraft:custom_data": {"pillars":{"id":"ancient_cog"}}
+            "minecraft:custom_data": {"pillars":{"id":"ancient_gear"}}
           }
         }
       }
     }
   },
   "rewards": {
-    "function": "pillars:items/ancient_cog/launch"
+    "function": "pillars:items/ancient_gear/launch"
   }
 }

@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "minecraft:model",
-        "model": "pillars:item/ancient_cog"
+        "model": "pillars:item/ancient_gear"
     }
 }

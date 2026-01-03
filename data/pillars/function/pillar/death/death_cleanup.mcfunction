@@ -3,7 +3,7 @@
 
 
 particle campfire_signal_smoke ~ ~ ~ 0.5 0.5 0.5 0.1 200 force
-loot spawn ~ ~ ~ loot pillars:items/ancient_cog
+loot spawn ~ ~ ~ loot pillars:items/ancient_gear
 
 
 
